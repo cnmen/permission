@@ -10,13 +10,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
-        // 在gradle文件中配置选项参数值
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments = [packageName: 'com.cmonbaby.eventbus.apt', className: 'EventBusIndex']
-            }
-        }
     }
     buildTypes {
         release {
@@ -30,15 +23,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-//    implementation project(':annotation')
-//    implementation project(':core')
-//    annotationProcessor project(':compiler')
-
-//    implementation 'com.cmonbaby.permission.annotation:annotation:1.0.0'
-//    implementation 'com.cmonbaby.permission.core:core:1.0.0'
-//    annotationProcessor 'com.cmonbaby.permission.compiler:compiler:1.0.0'
+    implementation 'com.cmonbaby.permission.annotation:annotation:1.0.0'
+    implementation 'com.cmonbaby.permission.core:core:1.0.0'
+    annotationProcessor 'com.cmonbaby.permission.compiler:compiler:1.0.0'
 }
