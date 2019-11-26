@@ -1,6 +1,8 @@
 ### Hey, Do you really know about Permission ?
 #### If you not sure, please click here : [Permission](https://www.cmonbaby.com)
 
+## Permission ![Build Status](https://travis-ci.org/greenrobot/EventBus.svg?branch=master)
+
 ## About coding
 ```java
 public class MainActivity extends AppCompatActivity {
@@ -71,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Add permission to your project
 <a href="https://www.cmonbaby.com">
-<img src="https://img.shields.io/bintray/v/cmonbaby/simon/eventbus_annotation?label=maven-central"></a>
+<img src="https://img.shields.io/bintray/v/cmonbaby/simon/permission_annotation?label=maven-central"></a>
 
 Via Gradle:
 ```gradle
