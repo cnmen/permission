@@ -1,2 +1,2 @@
-include ':app', ':annotation', ':compiler', ':core'
+include ':app'
 rootProject.name='permission_demo'
