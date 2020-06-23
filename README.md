@@ -77,9 +77,9 @@ public class MainActivity extends AppCompatActivity {
 
 Via Gradle:
 ```gradle
-implementation 'com.cmonbaby.permission.core:permission_core:1.1.0'
-implementation 'com.cmonbaby.permission.annotation:permission_annotation:1.1.0'
-annotationProcessor 'com.cmonbaby.permission.compiler:permission_compiler:1.1.0'
+implementation 'com.cmonbaby.permission.core:permission_core:1.1.1'
+implementation 'com.cmonbaby.permission.annotation:permission_annotation:1.1.1'
+annotationProcessor 'com.cmonbaby.permission.compiler:permission_compiler:1.1.1'
 ```
 
 Via Maven:
@@ -87,17 +87,17 @@ Via Maven:
 <dependency>
     <groupId>com.cmonbaby.permission.annotation</groupId>
     <artifactId>permission_annotation</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 </dependency>
 <dependency>
     <groupId>com.cmonbaby.permission.compiler</groupId>
     <artifactId>permission_compiler</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 </dependency>
 <dependency>
     <groupId>com.cmonbaby.permission.core</groupId>
     <artifactId>permission_core</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 </dependency>
 ```
 
